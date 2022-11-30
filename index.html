@@ -20,8 +20,121 @@
   </head>
   <body>
     <div class="container">
-      <h1>hello</h1>
-      <a href="" class="btn btn-primary">Click here</a>
+      <div class="weatherApp">
+        <a
+          href="https://github.com/ALV-9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="" class="ALV-logo" alt="ALV Logo" />
+        </a>
+        <form>
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                class="form-control search-input"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <input
+                type="submit"
+                class="btn btn-primary w-100"
+                value="Search"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <input
+                type="find my location"
+                class="btn btn-primary w-100"
+                value="Search"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="WeatherToday">
+          <div class="row">
+            <div class="col-6">
+              <h1>Limhamn</h1>
+              <ul>
+                <li><span>Wednesday 20:54</span>, light intensity drizzle</li>
+                <li>
+                  Humidity: <strong>93%</strong>, Wind:
+                  <strong>4.63km/h</strong>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-8">
+              <div class="temperature-container d-flex justify-content-end">
+                <canvas width="52" height="52"></canvas>
+                <div>
+                  <span class="temperature">4</span><span class="unit">°C</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="WeatherForecast row">
+          <div class="col">
+            <div class="WeatherForecastIcon">
+              <div class="day">Wednesday</div>
+              <div class="WeatherForecastTemperature">
+                <span class="WeatherForecastTemperatureMax">5°</span>
+                <span class="WeatherForecastTemperatureMin">-1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastIcon">
+              <div class="day">Thursday</div>
+              <div class="WeatherForecastTemperature">
+                <span class="WeatherForecastTemperatureMax">5°</span>
+                <span class="WeatherForecastTemperatureMin">-1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastIcon">
+              <div class="day">Friday</div>
+              <div class="WeatherForecastTemperature">
+                <span class="WeatherForecastTemperatureMax">5°</span>
+                <span class="WeatherForecastTemperatureMin">-1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastIcon">
+              <div class="day">Saturday</div>
+              <div class="WeatherForecastTemperature">
+                <span class="WeatherForecastTemperatureMax">5°</span>
+                <span class="WeatherForecastTemperatureMin">-1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastIcon">
+              <div class="day">Sunday</div>
+              <div class="WeatherForecastTemperature">
+                <span class="WeatherForecastTemperatureMax">5°</span>
+                <span class="WeatherForecastTemperatureMin">-1°</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          This project was coded by Alissa Valsangiacomo, open source on
+          <a href="https://github.com/ALV-9/ALV-WeatherApp" target="_blank"
+            >github</a
+          >
+          and hosted on
+          <a href="https://github.com/ALV-9/ALV-WeatherApp" target="_blank"
+            >Netfly</a
+          >
+          .
+        </footer>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
